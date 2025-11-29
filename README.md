@@ -1,4 +1,5 @@
 # PROJECT: Portfolio-Website
+Author: Jakub Pawlusek
 
 university requirements:
 
