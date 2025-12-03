@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">PORTFOLIO.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="resume.html">Resume</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="section-padding">
+            <h2 class="section-title">Get In Touch</h2>
+            <p style="margin-bottom: 30px; max-width: 500px;">
+                I am currently looking for new opportunities and internships. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+
+            <div class="contact-container">
+                <form id="contactForm" onsubmit="handleSubmit(event)">
+                    
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Hello..." required></textarea>
+
+                    <button type="submit" class="btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Built by Jakub "Akamaara" Pawlusek</p>
+    </footer>
+
+<script>
+    // demo function for form testing - will work on this someday trust
+    function handleSubmit(event)
+    {
+        event.preventDefault();
+
+        alert("Your message has been sent successfully. Thanks for contact :)");
+
+        document.getElementById("contactForm").reset();
+    }
+</script>
+</body>
+</html>
