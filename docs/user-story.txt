@@ -1,0 +1,19 @@
+User-Story:
+
+Scenariusz 1: Rekruter IT
+
+Jako rekruter techniczny poszukujący stażysty, chcę szybko znaleźć sekcję z umiejętnościami technicznymi (Skills) 
+oraz zobaczyć przykładowe kody źródłowe w projektach, aby ocenić, czy kandydat zna technologie wymagane na danym stanowisku 
+(np. Python, Git) i czy potrafi pisać czysty kod.
+
+Scenariusz 2: Potencjalny Klient / Pracodawca
+
+Jako potencjalny pracodawca przeglądający ofertę na urządzeniu mobilnym, 
+chcę, aby strona była w pełni responsywna i posiadała intuicyjne menu, aby móc wygodnie 
+zapoznać się z doświadczeniem kandydata bez konieczności powiększania ekranu i "szukania" treści na telefonie.
+
+Scenariusz 3: Osoba zainteresowana współpracą
+
+Jako osoba odwiedzająca profil, chcę mieć możliwość szybkiego wysłania wiadomości bezpośrednio ze strony,
+aby skontaktować się z autorem w sprawach zawodowych bez konieczności ręcznego kopiowania adresu e-mail 
+i przełączania się do klienta poczty.
