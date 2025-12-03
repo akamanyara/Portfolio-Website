@@ -1,6 +1,6 @@
 # Jakub Pawlusek - Personal Porfolio Website
 
-[![Live Demo](https://img.shields.io/badge/🟢_Live_Demo-Click_Here-success?style=for-the-badge)](https://twoj-nick.github.io/portfolio/)
+[![Live Demo](https://img.shields.io/badge/🟢_Live_Demo-Click_Here-success?style=for-the-badge)](https://akamanyara.github.io/Portfolio-Website/)
 ![Project Status](https://img.shields.io/badge/Status-Completed-success)
 ![Technology](https://img.shields.io/badge/HTML5-CSS3-orange)
 
