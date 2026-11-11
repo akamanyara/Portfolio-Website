@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact | Akamaara Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" type="image/jpeg" href="assets/images/logo.jpeg">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+
     <nav class="navbar">
         <div class="logo">PORTFOLIO.</div>
         <ul class="nav-links">
@@ -23,24 +23,25 @@
     <main>
         <section class="section-padding">
             <h2 class="section-title">Get In Touch</h2>
-            <p style="margin-bottom: 30px; max-width: 500px;">
-                I am currently looking for new opportunities and internships. Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            <p style="margin-bottom: 40px; max-width: 600px;">
+                I am currently looking for new opportunities and internships. 
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
             </p>
 
-            <div class="contact-container">
-                <form id="contactForm" onsubmit="handleSubmit(event)">
-                    
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" placeholder="Your Name" required>
-
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Your Email" required>
-
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" placeholder="Hello..." required></textarea>
-
-                    <button type="submit" class="btn-primary">Send Message</button>
-                </form>
+            <div class="card" style="max-width: 500px;">
+                <h3 style="margin-bottom: 20px;">Contact Information</h3>
+                
+                <p style="margin-bottom: 15px;">
+                    <strong>Email:</strong> <a href="mailto:jpawlusek.dev@gmail.com" style="color: #64ffda; text-decoration: none;">jpawlusek.dev@gmail.com</a>
+                </p>
+                <p style="margin-bottom: 15px;">
+                    <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jakub-pawlusek/" target="_blank" style="color: #64ffda; text-decoration: none;">linkedin.com/in/jakub-pawlusek</a>
+                </p>
+                <p style="margin-bottom: 30px;">
+                    <strong>GitHub:</strong> <a href="https://github.com/akamanyara" target="_blank" style="color: #64ffda; text-decoration: none;">github.com/akamanyara</a>
+                </p>
+                
+                <a href="mailto:jpawlusek.dev@gmail.com" class="btn-primary">Send an Email</a>
             </div>
         </section>
     </main>
@@ -49,16 +50,5 @@
         <p>&copy; 2025 Built by Jakub "Akamaara" Pawlusek</p>
     </footer>
 
-<script>
-    // demo function for form testing - will work on this someday trust
-    function handleSubmit(event)
-    {
-        event.preventDefault();
-
-        alert("Your message has been sent successfully. Thanks for contact :)");
-
-        document.getElementById("contactForm").reset();
-    }
-</script>
 </body>
 </html>
