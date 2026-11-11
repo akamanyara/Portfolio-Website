@@ -17,7 +17,6 @@ Page presents my skills, projects and education along the experience.
 
 * **HTML5** - overall structure (header, nav,main, section, footer)
 * **CSS3** - used the :root variables, flexbox, grid and media, style for the website
-* **JavaScript** - used for contact form as a script to make it look like sending a message works (XD will make it later)
 
 --- 
 
